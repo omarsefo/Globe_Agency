@@ -11,12 +11,13 @@ const backmenu = document.getElementById('backmenu');
 const menup = document.getElementById('menu');
 const closep = document.getElementById('close');
 const openp = document.querySelector('.menu-btn');
+var as = document.getElementsByTagName('a')[1];
 var as1 = document.getElementsByTagName('a')[2];
 var as2 = document.getElementsByTagName('a')[3];
 var as3 = document.getElementsByTagName('a')[4];
 var as4 = document.getElementsByTagName('a')[5];
 
-var navElems = [overlay, openp, closep, as1, as2, as3, as4];
+var navElems = [overlay, openp, closep,as , as1, as2, as3, as4];
 
 for (let i = 0; i < navElems.length; i++) {
     navElems[i].addEventListener("click", function () {
