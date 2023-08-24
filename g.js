@@ -1,3 +1,30 @@
+setTimeout(function() {
+  var response = confirm("Do you want to see the real UI/UX images that I copied?\nClick OK to allow pop-ups for this site and reload the page please.");
+
+  if (response) {
+    openImagePopup();
+  }
+}, 2000);
+
+function openImagePopup() {
+  var imagePaths = [
+    "./img/1.jpg",
+    "./img/2.jpg",
+    "./img/3.jpg",
+    "./img/4.jpg"
+  ];
+
+  var newWindow = window.open("", "_blank");
+
+  newWindow.document.write("<!DOCTYPE html><html><head><title>Image Display</title></head><body>");
+
+  imagePaths.forEach(function(imagePath) {
+    newWindow.document.write(`<img width='100%' src='${imagePath}' alt='Be real'>`);
+  });
+
+  newWindow.document.write("</body></html>");
+}
+
 ///nav
 window.addEventListener("scroll", function () {
     var nav = document.querySelector("nav");
