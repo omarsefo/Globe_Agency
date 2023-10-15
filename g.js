@@ -17,7 +17,8 @@ function openImagePopup() {
   var newWindow = window.open("", "_blank");
 
   newWindow.document.write("<!DOCTYPE html><html><head><title>Image Display</title></head><body>");
-
+  newWindow.document.write(`<a href="https://www.instagram.com/p/CYzKVXdAicB/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">click me to show you the ui/ux post</a>`);
+  
   imagePaths.forEach(function(imagePath) {
     newWindow.document.write(`<img width='100%' src='${imagePath}' alt='Be real'>`);
   });
