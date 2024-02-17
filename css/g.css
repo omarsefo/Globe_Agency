@@ -14,7 +14,7 @@ body::-webkit-scrollbar-thumb{background-color:#faaf40}
 .navbars .maxw .logo .gimg{width:60px}
 .navbars .menu{display:flex;justify-content:right;align-items:center}
 .navbars .menu li{list-style:none}
-.navbars .menu li a{color:#ffffffb7;text-decoration:none;font-size:20px;font-weight:500;padding:5px 3px;margin:5px 25px;font-family:Poppins,serif}
+.navbars .menu li a{color:#ffffffb7;text-decoration:none;font-size:20px;font-weight:400;padding:5px 3px;margin:5px 15px;font-family:Poppins,serif}
 .navbars .menu li a:hover{color:#fff}
 .navbars .maxw .alogin{font-family:Poppins,serif;font-size:15px;padding:10px 35px;background-color:#faaf40;color:#fff;border-radius:2px;-webkit-border-radius:2px;-moz-border-radius:2px;-ms-border-radius:2px;-o-border-radius:2px}
 .navbars.sticky{padding:10px 0;background:#131313ab;box-shadow:2px 2px 5px rgba(0,0,0,.5),1px 1px 5px rgba(0,0,0,.5)}
@@ -31,8 +31,8 @@ body::-webkit-scrollbar-thumb{background-color:#faaf40}
 .home{background:linear-gradient(rgba(0,0,0,.705),rgba(0,0,0,.719)),url(../img/pexels-kindel-media-7688336.jpg) no-repeat center center fixed;background-size:cover;width:100%;display:flex;height:100vh;min-height:520px}
 .home .maxw{position:relative;z-index:1;display:flex;justify-content:center;align-items:center;flex-wrap:wrap;width:100%}
 .home .home-container{display:grid;place-content:center;width:70%;font-size:25px;color:#fff}
-.contact .maxw .contact-container .text-1,.home .maxw .home-container .text-1{text-align:center;font-size:45px;user-select:none;font-family:Arvo,serif}
-.contact .maxw .contact-container .text-2,.home .maxw .home-container .text-2{text-align:center;font-size:45px;margin-left:-3px;user-select:none;font-family:Arvo,serif}
+.contact .maxw .contact-container .text-1,.home .maxw .home-container .text-1{text-align:center;font-size:43px;user-select:none;font-family:Arvo,serif}
+.contact .maxw .contact-container .text-2,.home .maxw .home-container .text-2{text-align:center;font-size:43px;margin-left:-3px;user-select:none;font-family:Arvo,serif}
 .contact .maxw .contact-container p,.home .maxw .home-container p{display:flex;flex-wrap:wrap;text-align:center;padding-top:40px;font-size:16px;line-height:40px;font-family:Arvo,serif}
 .home .maxw .home-container .buttons{display:flex;align-items:center;justify-content:center;margin-top:30px}
 .home .maxw .home-container .gbtn{font-family:Poppins,serif;font-size:15px;padding:12px 35px;background-color:#faaf40;color:#fff;border-radius:2px;-webkit-border-radius:2px;-moz-border-radius:2px;-ms-border-radius:2px;-o-border-radius:2px}
