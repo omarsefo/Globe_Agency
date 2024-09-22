@@ -1,0 +1,68 @@
+{
+    "blogs" : [
+        {
+            "title": "Develope Marketing",
+            "like": 100,
+            "comments": 50,
+            "share": 30,
+            "date": "FEB-14-2023",
+            "author": "Jon",
+            "image": "laptop1.jpg",
+            "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste quas delectus consequatur explicabo sapiente quaerat debitis ullam pariatur doloremque."
+        },
+        {
+            "title": "Marketing Strategy",
+            "like": 100,
+            "comments": 50,
+            "share": 30,
+            "date": "FEB-14-2023",
+            "author": "Jon",
+            "image": "laptop2.jpg",
+            "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste quas delectus consequatur explicabo sapiente quaerat debitis ullam pariatur doloremque."
+        },
+        {
+            "title": "Develope Marketing",
+            "like": 100,
+            "comments": 50,
+            "share": 30,
+            "date": "FEB-14-2023",
+            "author": "Jon",
+            "image": "laptop3.jpg",
+            "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste quas delectus consequatur explicabo sapiente quaerat debitis ullam pariatur doloremque."
+        }
+    ],
+    "cards" : [
+        {
+            "title": "Grow Your Traffic",
+            "font": "fa-solid fa-arrow-trend-up",
+            "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste quas delectus consequatur explicabo sapiente quaerat debitis ullam pariatur doloremque. Praesentium qui nam sit dolore consequatur"
+        },
+        {
+            "title": "Get Quality Idea",
+            "font": "fa-regular fa-lightbulb",
+            "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste quas delectus consequatur explicabo sapiente quaerat debitis ullam pariatur doloremque. Praesentium qui nam sit dolore consequatur"
+        },
+        {
+            "title": "Drive Mode Sales",
+            "font": "fa-solid fa-bag-shopping",
+            "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste quas delectus consequatur explicabo sapiente quaerat debitis ullam pariatur doloremque. Praesentium qui nam sit dolore consequatur"
+        }
+    ],
+    "cards" : [
+        {
+          "title": "Creative Ideas",
+          "font": "fa-regular fa-lightbulb",
+          "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Istequas delectus consequatur explicabo sapiente quaerat debitisullam pariatur doloremque. Praesentium qui nam sit doloreconsequatur, explicabo necessitatibus, temporibus repellendusincidunt odit Ipsam."
+        },
+        {
+          "title": "Smart Solutions",
+          "font": "fa-solid fa-cubes",
+          "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Istequas delectus consequatur explicabo sapiente quaerat debitisullam pariatur doloremque. Praesentium qui nam sit doloreconsequatur, explicabo necessitatibus, temporibus repellendusincidunt odit Ipsam."
+        },
+        {
+          "title": "Free Support",
+          "font": "fa-regular fa-comments",
+          "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Istequas delectus consequatur explicabo sapiente quaerat debitisullam pariatur doloremque. Praesentium qui nam sit doloreconsequatur, explicabo necessitatibus, temporibus repellendusincidunt odit Ipsam."
+        }
+      ]
+}
